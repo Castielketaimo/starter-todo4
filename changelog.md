@@ -11,6 +11,7 @@
 ### New components
 -------------------------------------------------------------------------------------------------
 #### Feb 14, 2018
+* Added mtce page -JL
 * Added template_secondary.php -CL
 * Added views/by_category.php -CL
 * Added views/BY_priority.php -CL
