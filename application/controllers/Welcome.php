@@ -29,6 +29,16 @@ class Welcome extends Application
 		// and save that as a view parameter
 		$this->data['remaining_tasks'] = $count;
 
+		// process the array in reverse, until we have five
+		$count = 0;
+		foreach(array_reverse($tasks) as $task) {
+			$task->priority = $this->app->priority($task->priority);
+			$display_tasks[] = (array) $task;
+			$count++;
+			if ($count >= 5) break;
+		}
+		$this->data['display_tasks'] = $display_tasks;
+
 		$this->data['pagebody'] = 'homepage';
 		$this->render(); 
 	}
