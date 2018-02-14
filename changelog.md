@@ -11,6 +11,7 @@
 ### New components
 -------------------------------------------------------------------------------------------------
 #### Feb 14, 2018
+* Added Tasks model, and autoloaded it in config/autoload.
 * Added changelog.md -CL
 
 ### Updated components
