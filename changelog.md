@@ -11,10 +11,17 @@
 ### New components
 -------------------------------------------------------------------------------------------------
 #### Feb 14, 2018
-* Added helpme view, data/jobs.md for displaying a help wanted page messsage.
-* Added table with last 5 tasks displayed on homepage.
-* Added tasks alert on homepage.
-* Added Tasks model, and autoloaded it in config/autoload.
+* Added template_secondary.php -CL
+* Added views/by_category.php -CL
+* Added views/BY_priority.php -CL
+* Added controllerViews.php -CL
+* Added helpme view, data/jobs.md for displaying a help wanted page messsage. -JL
+* Added table with last 5 tasks displayed on homepage. -JL
+* Added tasks alert on homepage. -JL
+* Added Tasks model, and autoloaded it in config/autoload. -JL
 * Added changelog.md -CL
 
 ### Updated components
+* config/config.php (updated the link Work) -CL
+* core/MY_Controller.php (Passes template as a var instead function) -CL
+* models/Tasks.php (added function getCategorizedTasks(), orderByCategory()) -CL
