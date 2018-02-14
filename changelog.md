@@ -11,6 +11,8 @@
 ### New components
 -------------------------------------------------------------------------------------------------
 #### Feb 14, 2018
+* Added table with last 5 tasks displayed on homepage.
+* Added tasks alert on homepage.
 * Added Tasks model, and autoloaded it in config/autoload.
 * Added changelog.md -CL
 
