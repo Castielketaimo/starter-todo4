@@ -16,7 +16,7 @@ class Mtce extends Application {
         {
                 $this->data['pagetitle'] = 'TODO List Maintenance';
                 // build the task presentation output
-                $result = ''; // start with an empty array      
+                $result = ''; // start with an empty array
                 foreach ($tasks as $task)
                 {
                         if (!empty($task->status))
@@ -27,6 +27,8 @@ class Mtce extends Application {
 
                 // and then pass them on
                 $this->data['pagebody'] = 'itemlist';
+                $role = $this->session->userdata('userrole');
+                $this->data['pagetitle'] = 'TODO List Maintenance ('. $role . ')';
                 $this->render();
         }
 
@@ -47,7 +49,7 @@ class Mtce extends Application {
                         }
                         if ($count >= $this->items_per_page) break;
                 }
-                
+
                 // Get correct task values.
                 $this->data['pagination'] = $this->pagenav($num);
                 $this->show_page($tasks);
