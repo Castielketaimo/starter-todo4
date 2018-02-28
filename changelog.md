@@ -12,6 +12,7 @@
 -------------------------------------------------------------------------------------------------
 #### Feb 28, 2018
 * Added Pagination -JL
+* Added "completion of work" to the Homepage -JL
 
 ## Version 1.0
 
