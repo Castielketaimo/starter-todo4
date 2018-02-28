@@ -12,6 +12,14 @@
 -------------------------------------------------------------------------------------------------
 #### Feb 28, 2018
 * Added Pagination -JL
+* Added role controller -CL
+
+### Updated components
+* application/config/constants.php (defined role of guest and owner) -CL
+* views/menubar.php (Added roles in nav) -CL
+* application/config/config.php (updated sessions to use file system) -CL
+* application/config/autoload.php (Auto load the session) -CL
+* Controller/Mtce (Made the role visible) -CL
 
 ## Version 1.0
 
