@@ -6,6 +6,13 @@
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## Version 2.0
+
+### New components
+-------------------------------------------------------------------------------------------------
+#### Feb 28, 2018
+* Added Pagination -JL
+
 ## Version 1.0
 
 ### New components
