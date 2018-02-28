@@ -11,7 +11,8 @@
 ### New components
 -------------------------------------------------------------------------------------------------
 #### Feb 28, 2018
-* Adde Task Item Maintenance -JL
+* Added size, group and status editing. -JL
+* Added Task Item Maintenance -JL
 * Added oneitemx -CL
 * Added item Added view -CL
 * Added Pagination -JL
