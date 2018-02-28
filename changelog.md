@@ -17,6 +17,7 @@
 * Added role controller -CL
 
 ### Updated components
+* Models/Tasks (Added edit/add tasks.) -JL
 * Models/App (Fixed Jims mistake, fire that guy.) -JL
 * Controller/Mtce (Shows results on page given a page value.) -JL
 * views/itemlist.php (Added checkboxes and pagination links.) -JL
