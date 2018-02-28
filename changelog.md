@@ -12,6 +12,8 @@
 -------------------------------------------------------------------------------------------------
 #### Feb 28, 2018
 * Adde Task Item Maintenance -JL
+* Added oneitemx -CL
+* Added item Added view -CL
 * Added Pagination -JL
 * Added "completion of work" to the Homepage -JL
 * Added role controller -CL
@@ -19,6 +21,8 @@
 ### Updated components
 * Models/Tasks (Added edit/add tasks.) -JL
 * Models/App (Fixed Jims mistake, fire that guy.) -JL
+* controller/Mtce (Display view based on role) -CL
+* Controller/Mtce (Display the add new todo item)-CL
 * Controller/Mtce (Shows results on page given a page value.) -JL
 * views/itemlist.php (Added checkboxes and pagination links.) -JL
 * application/config/constants.php (defined role of guest and owner) -CL
