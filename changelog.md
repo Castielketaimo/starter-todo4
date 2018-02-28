@@ -11,11 +11,13 @@
 ### New components
 -------------------------------------------------------------------------------------------------
 #### Feb 28, 2018
+* Adde Task Item Maintenance -JL
 * Added Pagination -JL
 * Added "completion of work" to the Homepage -JL
 * Added role controller -CL
 
 ### Updated components
+* Models/App (Fixed Jims mistake, fire that guy.) -JL
 * Controller/Mtce (Shows results on page given a page value.) -JL
 * views/itemlist.php (Added checkboxes and pagination links.) -JL
 * application/config/constants.php (defined role of guest and owner) -CL
