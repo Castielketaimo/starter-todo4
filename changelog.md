@@ -6,6 +6,43 @@
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## Version 4.0
+
+### New components
+-------------------------------------------------------------------------------------------------
+#### March 8, 2018
+* Added test cases to test folder. - JL
+* Created task class for testing. -JL
+
+### Updated components
+* Tasks.php model, added functions. -JL.
+
+## Version 3.0
+
+### New components
+-------------------------------------------------------------------------------------------------
+#### March 3, 2018
+* Added tests folder under root - CL
+* Added public/index.php and renamed Bootstrap.php in tests folder - CL
+* Added phpunit.xml.dist under root - CL
+* Added .travis.yml file - CL
+* Added TaskListTest.php - CL
+* Added TaskTest.php -CL
+
+### Updated components
+* Models/Tasks (Added edit/add tasks.) -JL
+* Models/App (Fixed Jims mistake, fire that guy.) -JL
+* controller/Mtce (Display view based on role) -CL
+* Controller/Mtce (Display the add new todo item)-CL
+* Controller/Mtce (Shows results on page given a page value.) -JL
+* views/itemlist.php (Added checkboxes and pagination links.) -JL
+* application/config/constants.php (defined role of guest and owner) -CL
+* views/menubar.php (Added roles in nav) -CL
+* application/config/config.php (updated sessions to use file system) -CL
+* application/config/autoload.php (Auto load the session) -CL
+* Controller/Mtce (Made the role visible) -CL
+
+
 ## Version 2.0
 
 ### New components
