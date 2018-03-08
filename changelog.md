@@ -6,6 +6,17 @@
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## Version 4.0
+
+### New components
+-------------------------------------------------------------------------------------------------
+#### March 8, 2018
+* Added test cases to test folder. - JL
+* Created task class for testing. -JL
+
+### Updated components
+* Tasks.php model, added functions. -JL.
+
 ## Version 3.0
 
 ### New components
