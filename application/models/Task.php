@@ -17,17 +17,21 @@ class Task extends CI_Model
         $this->id = $value;
     }
 
+    // Check if task text is too large.
     public function setTask($value)
     {
-        if (strlen($value) < 65)
+        if (strlen($value) > 64)
         {
-            $this->task = $value;
+            return;
         }
+
+        $this->task = $value;
     }
 
+    // Check if size is valid.
     public function setSize($value)
     {
-        if (!is_int($value) || $value > 4)
+        if (!is_int($value) || $value >= 4)
         {
             return;
         }
@@ -35,9 +39,10 @@ class Task extends CI_Model
         $this->size = $value;
     }
 
+    // Checks if group is valid.
     public function setGroup($value)
     {
-        if (!is_int($value) || $value > 5)
+        if (!is_int($value) || $value >= 5)
         {
             return;
         }
@@ -47,7 +52,7 @@ class Task extends CI_Model
 
     public function setPriority ($value)
     {
-        if (!is_int($value) || $value > 4)
+        if (!is_int($value) || $value >= 4)
         {
             return;
         }
