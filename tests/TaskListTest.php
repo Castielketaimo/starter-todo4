@@ -1,16 +1,21 @@
 <?php
- class CITest extends PHPUnit_Framework_TestCase
-  {
+use PHPUnit\Framework\TestCase;
+
+class TaskListTest extends TestCase
+{
     private $CI;
+
+    // Load CI instance normally
     public function setUp()
     {
-      // Load CI instance normally
-      $this->CI = &get_instance();
+        $this->CI = &get_instance();
     }
+
+    // Test get posting.
     public function testGetPost()
     {
-      $_SERVER['REQUEST_METHOD'] = 'GET';
-      $_GET['foo'] = 'bar';
-      $this->assertEquals('bar', $this->CI->input->get_post('foo'));
+        $_SERVER['REQUEST_METHOD'] = 'GET';
+        $_GET['foo'] = 'bar';
+        $this->assertEquals('bar', $this->CI->input->get_post('foo'));
     }
-  }
+}
