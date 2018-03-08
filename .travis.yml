@@ -1,3 +1,4 @@
 language: php
-rvm:
- - 7.0
+php:
+  - 7.1.4
+script: phpunit
