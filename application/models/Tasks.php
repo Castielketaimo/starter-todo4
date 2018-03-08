@@ -3,8 +3,8 @@
 /**
  * Models for the data/tasks.csv
  */
-class Tasks extends CSV_Model {
-
+class Tasks extends CSV_Model
+{
         public function __construct()
         {
                 parent::__construct(APPPATH . '../data/tasks.csv', 'id');
@@ -56,5 +56,37 @@ class Tasks extends CSV_Model {
                 ['field' => 'group', 'label' => 'Task group', 'rules' => 'integer|less_than[5]'],
             );
             return $config;
+        }
+
+        // Get completed tasks number.
+        function getCompletedTask()
+        {
+            $completed = 0;
+
+            foreach ($this->all() as $task)
+            {
+                if ($task->status == 2)
+                {
+                    $completed++;
+                }
+            }
+            
+            return $completed;
+        }
+
+        // Get uncompleted tasks number.
+        function getUncompletedTask()
+        {
+            $uncompleted = 0;
+
+            foreach ($this->all() as $task)
+            {
+                if ($task->status != 2)
+                {
+                    $uncompleted++;
+                }
+            }
+            
+            return $uncompleted;
         }
 }
