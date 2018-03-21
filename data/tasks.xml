@@ -1,11 +1,104 @@
 <?xml version="1.0"?>
-<root>
-<row id="1" task="COMP1234 assignment" priority="3" size="3" group="1" deadline="20170219" status="2" flag=""></row>
-<row id="2" task="Mow the lawn" priority="2" size="2" group="1" deadline="" status="2" flag=""></row>
-<row id="3" task="Wash the car" priority="2" size="2" group="1" deadline="" status="" flag=""></row>
-<row id="4" task="Paint the fence" priority="1" size="2" group="1" deadline="" status="" flag=""></row>
-<row id="6" task="Intramural hockey game" priority="1" size="2" group="4" deadline="" status="" flag=""></row>
-<row id="7" task="Canucks hockey game" priority="3" size="3" group="4" deadline="20170305" status="" flag=""></row>
-<row id="8" task="Buy steel-toed boots" priority="2" size="1" group="3" deadline="" status="" flag=""></row>
-<row id="9" task="Learn French" priority="1" size="3" group="3" deadline="20161231" status="1" flag=""></row>
-</root>
+<tasks>
+  <task>
+    <id>1</id>
+    <name>COMP1234 assignment</name>
+    <priority>3</priority>
+    <size>2</size>
+    <group>2</group>
+    <deadline>20170219</deadline>
+    <status>1</status>
+    <flag/>
+  </task>
+  <task>
+    <id>2</id>
+    <name>Mow the lawn</name>
+    <priority>2</priority>
+    <size>2</size>
+    <group>1</group>
+    <deadline/>
+    <status>2</status>
+    <flag/>
+  </task>
+  <task>
+    <id>3</id>
+    <name>Wash the car</name>
+    <priority>2</priority>
+    <size>2</size>
+    <group>1</group>
+    <deadline/>
+    <status/>
+    <flag/>
+  </task>
+  <task>
+    <id>4</id>
+    <name>Paint the fence</name>
+    <priority>1</priority>
+    <size>2</size>
+    <group>1</group>
+    <deadline/>
+    <status/>
+    <flag/>
+  </task>
+  <task>
+    <id>5</id>
+    <name>Intramural hockey game</name>
+    <priority>1</priority>
+    <size>2</size>
+    <group>4</group>
+    <deadline/>
+    <status/>
+    <flag/>
+  </task>
+  <task>
+    <id>6</id>
+    <name>Canucks hockey game</name>
+    <priority>3</priority>
+    <size>3</size>
+    <group>4</group>
+    <deadline>20170305</deadline>
+    <status/>
+    <flag/>
+  </task>
+  <task>
+    <id>7</id>
+    <name>Buy steel-toed boots</name>
+    <priority>2</priority>
+    <size>1</size>
+    <group>3</group>
+    <deadline/>
+    <status/>
+    <flag/>
+  </task>
+  <task>
+    <id>8</id>
+    <name>Learn French</name>
+    <priority>1</priority>
+    <size>3</size>
+    <group>3</group>
+    <deadline>20161231</deadline>
+    <status>1</status>
+    <flag/>
+  </task>
+  <task>
+    <id>9</id>
+    <name>Hit the gym</name>
+    <priority>2</priority>
+    <size>1</size>
+    <group>4</group>
+    <deadline/>
+    <status/>
+    <flag/>
+  </task>
+  <task>
+    <id>10</id>
+    <name>sad</name>
+    <priority>1</priority>
+    <size>1</size>
+    <group>1</group>
+    <deadline/>
+    <status>1</status>
+    <flag/>
+    <submit>Update the TODO task</submit>
+  </task>
+</tasks>
