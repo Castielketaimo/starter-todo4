@@ -6,6 +6,12 @@
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## Version 5.0
+
+### New components
+-------------------------------------------------------------------------------------------------
+#### March 21, 2018
+* Added tasks.xml -CL
 ## Version 4.0
 
 ### New components
