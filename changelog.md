@@ -7,9 +7,12 @@
 * Changelog Format: Read from newest to oldest
 
 ## Version 5.0
-### New components
 #### March 21, 2018
+### New components
 * Added tasks.xml -CL
+### Updated components
+* Updated Tasks.php (Override the loading methods) -CL
+
 -------------------------------------------------------------------------------------------------
 ## Version 4.0
 
