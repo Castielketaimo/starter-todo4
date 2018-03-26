@@ -11,6 +11,8 @@
 ### New components
 * Added tasks.xml -CL
 ### Updated components
+* Updated all view files that displayed the task name. -JL
+* Updated Tasks.php (Override the store() method) -JL
 * Updated Tasks.php (Override the loading methods) -CL
 
 -------------------------------------------------------------------------------------------------
