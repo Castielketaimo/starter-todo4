@@ -6,21 +6,30 @@
 * Team conventions: Allman notation, markdown for changelog  
 * Changelog Format: Read from newest to oldest
 
+## Version 5.0
+#### March 21, 2018
+### New components
+* Added tasks.xml -CL
+### Updated components
+* Updated all view files that displayed the task name. -JL
+* Updated Tasks.php (Override the store() method) -JL
+* Updated Tasks.php (Override the loading methods) -CL
+
+-------------------------------------------------------------------------------------------------
 ## Version 4.0
 
 ### New components
--------------------------------------------------------------------------------------------------
+
 #### March 8, 2018
 * Added test cases to test folder. - JL
 * Created task class for testing. -JL
 
 ### Updated components
 * Tasks.php model, added functions. -JL.
-
+-------------------------------------------------------------------------------------------------
 ## Version 3.0
 
 ### New components
--------------------------------------------------------------------------------------------------
 #### March 3, 2018
 * Added tests folder under root - CL
 * Added public/index.php and renamed Bootstrap.php in tests folder - CL
@@ -42,11 +51,10 @@
 * application/config/autoload.php (Auto load the session) -CL
 * Controller/Mtce (Made the role visible) -CL
 
-
+-------------------------------------------------------------------------------------------------
 ## Version 2.0
 
 ### New components
--------------------------------------------------------------------------------------------------
 #### Feb 28, 2018
 * Added size, group and status editing. -JL
 * Added Task Item Maintenance -JL
@@ -68,11 +76,10 @@
 * application/config/config.php (updated sessions to use file system) -CL
 * application/config/autoload.php (Auto load the session) -CL
 * Controller/Mtce (Made the role visible) -CL
-
+-------------------------------------------------------------------------------------------------
 ## Version 1.0
 
 ### New components
--------------------------------------------------------------------------------------------------
 #### Feb 14, 2018
 * Added mtce page -JL
 * Added template_secondary.php -CL
